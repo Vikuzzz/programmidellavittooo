@@ -20,6 +20,7 @@
         table 
         {
             border-collapse: collapse; 
+            margin: 0 auto;
         }
 
         table, h1, h2 
@@ -36,15 +37,23 @@
         }
 
         /* Stile per la prima cella */
-        td.h1 
+        td.image-cell
         {
             width: 500px; /* Larghezza desiderata */
         }
 
         /* Stile per la seconda cella */
-        td.h2 
+        td.text-cell
         {
             width: 150px; /* Larghezza desiderata */
+        }
+
+        table.tabella2 
+        {
+            border: 1px solid rgb(0, 0, 0); /* Aggiunge un bordo alla seconda tabella con colore diverso */
+            text-align: left;
+            width: 100%;
+            border-collapse: collapse;
         }
 
     </style>
@@ -59,6 +68,25 @@
 
             <td>
                 <h2> <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png" alt="Immagine di Michael Scott da The Office" height="150"></h2>
+            </td>
+        </tr>
+
+    </table>
+
+    
+
+    <table class = "tabella2">
+
+        <tr>
+            <td>
+                italiano
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                inglese
             </td>
         </tr>
 
