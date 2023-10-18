@@ -6,5 +6,6 @@
         <a href="/esempio-html/">Visualizza Esempio HTML</a>
         <br>
         <a href="/curriculim"> curriculim </a>
+        <a href="/programmiscuola/eserciziocurriculum.html">Visualizza dispensa</a>
     </body>
 </html>
